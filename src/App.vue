@@ -1,28 +1,70 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header>
+      <img alt="LKBT logo" src="./assets/logo.png" />
+    </header>
+    <router-view />
+    <footer>
+      <div class="footer-1">contact@lebenkredit.pro</div>
+      <div class="footer-2">
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_1.png" alt />
+        </a>
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_2.png" alt />
+        </a>
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_3.png" alt />
+        </a>
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_4.png" alt />
+        </a>
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_5.png" alt />
+        </a>
+        <a href="javascript:;">
+          <img src="./assets/icon_logo_6.png" alt />
+        </a>
+      </div>
+      <div class="footer-3">Copyright © 2019 the LebenKredit Team</div>
+    </footer>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
+<style lang="less">
+@import "css/reset";
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+header {
+  width: 1000px;
+  height: 96px;
+  margin: 0 auto;
+}
+footer {
+  min-width: 1000px;
+  .footer-1 {
+    height: 63px;
+    line-height: 63px;
+    color: #6f6f6f;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #ababab;
+  }
+  .footer-2 {
+    width: 600px;
+    height: 108px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-3 {
+    color: #6f6f6f;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
 }
 </style>
