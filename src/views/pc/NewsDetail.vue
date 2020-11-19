@@ -37,6 +37,7 @@ export default {
   created() {
     loadNews('//api.lkbt.pro/wp-json/wp/v2/posts?categories=4&page=1').then(res => {
       this.news = res.data.find(n => n.id === +this.$route.query.newsId);
+      document.title = res.data.title.rendered;
       console.log('---', this.news);
     }).catch(error => console.error(error));
   }
