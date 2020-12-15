@@ -112,10 +112,10 @@ export default {
     FooterBox
   },
   mounted() {
-    let detail = document.querySelector('.detail');
-    this.$data.offset = detail.offsetTop;
-    observer(this);
-    window.addEventListener('scroll', this.onScroll);
+    // let detail = document.querySelector('.detail');
+    // this.$data.offset = detail.offsetTop;
+    // observer(this);
+    // window.addEventListener('scroll', this.onScroll);
   },
   data() {
     return {
