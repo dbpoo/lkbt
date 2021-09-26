@@ -8,7 +8,7 @@
           <span><router-link to="/">首页</router-link></span>
           <span><router-link to="/applicationscenaios">应用场景</router-link></span>
           <span><router-link to="/newsList">动态</router-link></span>
-          <span><a href="//52.77.230.193/LKBTWhitePaper.pdf" target="_blank">白皮书</a></span>
+          <!-- <span><a href="//52.77.230.193/LKBTWhitePaper.pdf" target="_blank">白皮书</a></span> -->
       </div>
       <a class="logo" data-observer-type="fixBottom" href="/"></a>
     </div>

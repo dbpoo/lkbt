@@ -121,13 +121,6 @@
           </li>
           <li>
             <div>
-              <div class="img justin"></div>
-              <h2>Dr justin</h2>
-              <h3>LKBT首席科学家</h3>
-            </div>
-          </li>
-          <li>
-            <div>
               <div class="img evan"></div>
               <h2>Evan</h2>
               <h3>LKBT首席营销官</h3>
