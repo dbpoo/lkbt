@@ -28,10 +28,9 @@ export default {
 <style lang="less">
 .footer_box{
   width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   padding-bottom: 20px;
+  padding-top: 20px;
+  background: url(../../assets/team2.jpg) no-repeat center bottom;
   &.relative{
       position: relative;
       padding-top: 40px;

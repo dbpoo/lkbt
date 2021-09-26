@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <div class="team">
+    <!-- <div class="team">
       <div class="box">
         <div class="title core_team">核心团队</div>
         <ul :class="{show: boxShow >= 4}">
@@ -93,7 +93,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <FooterBox />
     <!-- <img alt="Vue logo" src="../../assets/logo.png"> -->
   </div>

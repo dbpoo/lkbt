@@ -29,10 +29,9 @@ export default {
 .footer_box{
     width: 100%;
     min-width: 1202px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     padding-bottom: 80px;
+    padding-top: 40px;
+    background: url(../../assets/team2.jpg) no-repeat center bottom;
     &.relative{
         position: relative;
         height: 420px;
